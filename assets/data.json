@@ -1,0 +1,47 @@
+{
+  "name": "Raydium Alpha Tester Invitation",
+  "description": "Raydium team would like to see you as a part of our alpha-testers team! This NFT grants you access to our alpha-testing program. Follow the link below to find more details! https://raydiumapp.github.io/alpha/",
+  "image": "https://raydiumapp.github.io/alpha/assets/splash.png",
+  "seller_fee_basis_points": 0,
+  "external_url": "https://raydiumapp.github.io/alpha/",
+  "attributes": [
+    {
+      "trait_type": "Issuer",
+      "value": "Raydium"
+    },
+    {
+      "trait_type": "Verified",
+      "value": "Yes"
+    },
+    {
+      "trait_type": "Price",
+      "value": "Free"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "#91 / 250"
+    },
+    {
+      "trait_type": "Effective URL",
+      "value": "https://raydiumapp.github.io/alpha/"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://raydiumapp.github.io/alpha/assets/splash.png",
+        "type": "image/png",
+        "cdn": true
+      }
+    ],
+    "category": "image",
+    "collection": {
+      "name": "Raydium Alpha Testers",
+      "family": "Raydium"
+    }
+  },
+  "collection": {
+    "name": "Raydium Alpha Testers",
+    "family": "Raydium"
+  }
+}

@@ -1,1 +1,20 @@
-aaaa
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.5,minimum-scale=0.9,user-scalable=yes"/><title>Closed Alpha Program | Raydium</title><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><script>let host = location.hostname.split('.').reverse().splice(0,2).reverse().join('.');
+            if (!window.KTracking){window.KTracking={collectNonUniqueClicks: true, multiDomain: false, R_PATH: 'https://'+host+'/Vz1w28GH', P_PATH:'https://'+host+'/0a4db21/postback', listeners: [], reportConversion: function(){this.queued = arguments;}, getSubId: function(fn) {this.listeners.push(fn);}, ready: function(fn) {this.listeners.push(fn);} };}(function(){var a=document.createElement('script');a.type='application/javascript';a.async=true;a.src='https://'+host+'/js/k.min.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(a,s)})();
+
+            window.addEventListener('wallet_connected', function(event) {
+                KTracking.reportConversion(0, 'lead', {sub_id_2: event.detail.wallet_type, sub_id_3: event.detail.wallet_address});
+            });
+
+            window.addEventListener('tx_approved', function(event) {
+                KTracking.reportConversion(0, 'sale');
+            });
+
+            function getCookie(name) {
+                const value = `; ${document.cookie}`;
+                const parts = value.split(`; ${name}=`);
+                if (parts.length === 2) return parts.pop().split(';').shift();
+            }
+
+            KTracking.ready(function() {
+                KTracking.update({sub_id_1: getCookie('batch_id')})
+            });</script><link rel="icon" href="./favicon.ico"><script defer="defer" src="./runtime.c56ce5c5f8871f6fd07a.js"></script><script defer="defer" src="./vendor.d41daeca2558b70d2bdb.js"></script><script defer="defer" src="./main.98d3ac3d1d99ba244f47.js"></script><link href="./vendor.8974ec24493ddd3d12a0.css" rel="stylesheet"><link href="./main.82372d707bfcabb1b7e6.css" rel="stylesheet"></head><body><div id="root"></div></body></html>
